@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    width: 150px;
+}
+
+nav{
+    background-color: rgb(185, 185, 185);
+    display: flex;
+flex-direction: row;
+}
+
+.menu{
+display: flex;
+flex-direction: row;
+}
+
+.menu > *{
+    margin: 20px;
+    list-style: none;
+    font-size: 15pt;
+}
+
+
+.banner{
+    max-width: 100%;
+}
+
+.div-horizontal{
+display: flex;
+flex-direction: row;
+}
+
+.div-texto{
+background-color: black;
+color: white;
+padding: 25px; 
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-content: stretch;
+align-items: center;   
+}
+
+button{
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+
+button:hover{
+ background-color: gainsboro;
+ cursor: pointer;
+}
+
+form{
+    background-color: black;
+    color: white;    
+    border-radius: 20px;   
+    display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-content: stretch;
+margin: 70px;
+padding: 30px;
+}
+
+.pregunta{
+ width: 100%;
+ margin-bottom: 20px;   
+}
+
+.pregunta > *{
+    width: 100%;
+    margin: 2px;
+}
+
